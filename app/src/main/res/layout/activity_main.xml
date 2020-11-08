@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ksw97.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="PlainText"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/plainText"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Alias"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/alias"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/makeKey"
+            android:text="MakeKey"/>
+        <Button
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/encryptButton"
+            android:text="encrypt"/>
+        <Button
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/decryptButton"
+            android:text="decrypt"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Encrypted Text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/encryptedText"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Decrypted Text"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/decryptedText"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
